@@ -1,0 +1,157 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #473b71;
+}
+
+.logo span {
+    color: #000000; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.hero-section {
+    background-color: #333366; /* Цвет фона */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    flex-direction: column; /* Центрирование кнопки под текстом */
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.hero-content button {
+    background-color: #333399; /* Цвет кнопки */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-content button:hover {
+    background-color: #29297a; /* Темнее при наведении */
+}
+
+.features-section {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    margin-top: 0;
+}
+
+.feature p {
+    margin: 0;
+}
+
+.team-section {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center; /* Центрирование заголовка */
+}
+
+.team-section h2 {
+    margin-bottom: 40px; /* Отступ снизу для заголовка */
+}
+
+.team-section .team-member ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.team-member ul li {
+    text-align: center;
+    margin-bottom: 30px;
+    flex: 1 1 calc(25% - 20px); /* Четыре элемента в строке */
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+}
+
+.team-member p {
+    margin: 0;
+    color: #777;
+}
+
+.footer-section {
+    background-color: #000; /* Темный фон */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-section .logo h1 {
+    margin: 0;
+}
+
+.footer-section p {
+    margin: 10px 0;
+}
